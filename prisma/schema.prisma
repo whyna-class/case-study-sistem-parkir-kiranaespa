@@ -10,12 +10,12 @@ generator client {
 
 datasource db {
   provider = "mysql"
-  url      = env("DATABASE_URL")
 }
 
+
 enum jenisKendaraan {
-  RODA2
-  RODA4
+  roda2
+  roda4
 }
 
 model Parkir {
